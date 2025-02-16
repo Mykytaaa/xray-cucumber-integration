@@ -5,11 +5,6 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class StepDefinitions {
-
-    private String username;
-    private String password;
-    private String message;
-
     @Given("user is on the page")
     public void openLoginPage()
     {
